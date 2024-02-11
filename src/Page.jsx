@@ -1,9 +1,12 @@
+import Header from "./Components/Header/Header";
+import WeatherBoard from "./Components/WeatherBoard/WeatherBoard";
 
 const Page = () => {
    return (
-      <div>
-         Hello
-      </div>
+      <>
+         <Header/>
+         <WeatherBoard/>
+      </>
    );
 };
 
